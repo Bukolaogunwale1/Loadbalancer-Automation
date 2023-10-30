@@ -83,6 +83,7 @@ To close this file type escape key the shift:wqa! then enter.
  ```
  sudo chmod +x install.sh
  ```
+
 Run shell script using:
 
 **./install.sh PUBLIC_IP**
@@ -108,7 +109,6 @@ sudo vi nginx.sh
 > Paste code in script file
 
 ```
-
 #!/bin/bash
 
 ######################################################################################################################
@@ -236,6 +236,7 @@ sudo nginx -t
 
 sudo systemctl restart nginx
 ```
+
 to save
 
 ```
@@ -246,11 +247,22 @@ To change file permission . to make it executable
 ```
 sudo chmod +x nginx.sh
 ```
+
 Run   **./nginx.sh PUBLIC_IP Webserver-1 Webserver-2**
 
 ```
 ./nginx.sh 3.14.134.153 13.58.64.167
 ```
+
+For web 1
+
+![image](https://github.com/Bukolaogunwale1/Loadbalancer-Automation/assets/122865359/fafd9c0c-e9d3-46d0-96f7-2ef1e2a143be)
+
+for web 2
+
+<img width="960" alt="welcome to y ec2 for 1" src="https://github.com/Bukolaogunwale1/Loadbalancer-Automation/assets/122865359/de61420f-5c3b-497e-90cf-7aa383d53ea6">
+
+
 
 
 
